@@ -71,7 +71,7 @@
 
 14. Delete a document using _id field with `db.COLLECTION_NAME.remove()`.
 ```js
-  db.articles.remove({"title" : "CSS"})
+  db.articles.remove({"_id" : ObjectId("5ea873c0f212af06c5e0bd1c")});
 ```
 
 Use sample.js data for below queries.
